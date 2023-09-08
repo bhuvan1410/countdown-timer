@@ -1,0 +1,29 @@
+.countdown-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  
+  

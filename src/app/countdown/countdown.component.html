@@ -1,0 +1,7 @@
+<div class="countdown-container" [@countdownAnimation]="countdown">
+    <h1>{{ countdown }}</h1>
+    <button (click)="toggleCountdown()">
+      {{ counting ? 'Stop Countdown' : (countdown === 0 ? 'Replay' : 'Start Countdown') }}
+    </button>
+  </div>
+  
